@@ -9,19 +9,11 @@ const HeroSection = () => {
         <p className='md:text-center lg:text-xl lg:w-2/3 tracking-wide'>Building dynamic and user-centric web experiences through front-end development and full-stack proficiency. I leverage the power of ReactJS, Node.js, and cutting-edge technologies to bring your vision to life. Let&apos;s collaborate!</p>
 
         <div className="flex my-8">
-        {/* <Link href={"/"}>
-        <Button
-        borderRadius="1.75rem"
-        className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
-      >
-        Download CV
-      </Button>
-      </Link> */}
 
       <Link href={"/"}>
         <Button
         borderRadius="1.75rem"
-        className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800 text-lg"
+        className="bg-white dark:bg-slate-900/[.8] text-black dark:text-white border-neutral-200 dark:border-slate-800 text-lg"
       >
         Hire me
       </Button>

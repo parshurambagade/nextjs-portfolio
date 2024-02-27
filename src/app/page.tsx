@@ -2,6 +2,7 @@ import React from 'react'
 import { cn } from "@/utils/cn";
 import { Spotlight } from "@/components/ui/Spotlight";
 import HeroSection from '@/components/HeroSection';
+import FeaturedProjects from '@/components/FeaturedProjects';
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
         fill="white"
       />
       <HeroSection/>
+      <FeaturedProjects/>
     </main>
   )
 }

@@ -28,7 +28,7 @@ const FeaturedProjects = () => {
   // console.log(featuredProjects);
   return (
     <div className='min-h-screen w-full bg-gray-900/[.5] py-12  px-2 sm:px-12 lg:px-20'>
-        <div className='my-8 mb-12'>
+        <div className='mt-16 mb-12'>
             <h2 className='text-4xl md:text-5xl text-center text-cyan-500 font-bold my-4'>Featured Projects</h2>
             <p className='text-center'>Here is a list of my highlighted work.</p>
         </div>
@@ -78,7 +78,12 @@ const FeaturedProjects = () => {
         </div> 
               <div className='flex justify-center my-8 text-gray-400'>
 
-        <Link href={"/projects"} className='text-center hover:text-white'>View all projects</Link>
+        <Link href={"/projects"} className="p-[3px] mt-16 mb-8 relative">
+  <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-cyan-400 rounded-lg" />
+  <div className="px-8 py-4  bg-black rounded-[6px]  relative group transition duration-200 text-xl text-white  hover:text-black hover:bg-transparent">
+  View all projects
+  </div>
+</Link>
               </div>
     </div>
   )

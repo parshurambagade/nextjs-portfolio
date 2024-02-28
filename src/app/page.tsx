@@ -3,6 +3,7 @@ import { cn } from "@/utils/cn";
 import { Spotlight } from "@/components/ui/Spotlight";
 import HeroSection from '@/components/HeroSection';
 import FeaturedProjects from '@/components/FeaturedProjects';
+import WhyChooseMe from '@/components/WhyChooseMe';
 
 const page = () => {
   return (
@@ -13,6 +14,7 @@ const page = () => {
       />
       <HeroSection/>
       <FeaturedProjects/>
+      <WhyChooseMe/>
     </main>
   )
 }

@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+          "title": "Expert Full Stack Development",
+          "description":
+            "With over 2 years of experience in full stack development, specializing in MERN (MongoDB, Express.js, React.js, Node.js) stack, I deliver high-quality web applications tailored to your needs."
+        },
+        {
+            "title": "Efficient React.js Development",
+            "description":
+            "As a React.js specialist, I leverage the power of React.js and Redux Toolkit to build dynamic and interactive user interfaces that enhance user experience and engagement."
+        },
+        {
+            "title": "Solid JavaScript Foundation",
+            "description":
+            "With a strong command of JavaScript, I ensure robust and efficient web development, enabling seamless functionality and exceptional performance for your projects."
+        },
+        {
+            "title": "Stylish UI Design with Tailwind CSS",
+            "description":
+            "I craft visually appealing and responsive user interfaces using Tailwind CSS, ensuring your web applications are not only functional but also aesthetically pleasing across all devices."
+        },
+        {
+            "title": "Backend Expertise",
+            "description":
+            "With knowledge of backend technologies including Node.js, Express.js, MongoDB, MySQL, and Firebase, I can develop scalable and secure server-side solutions to meet your project requirements."
+        },
+        {
+            "title": "Versatile Skill Set",
+            "description":
+            "In addition to my expertise in MERN stack, I am familiar with Next.js, TypeScript, Bootstrap, HTML, and CSS, allowing me to adapt to various project needs and deliver comprehensive solutions."
+        },
+        {
+            "title": "Proven Track Record",
+            "description":
+            "Having completed 5-6 successful projects, I have a proven track record of delivering high-quality work on time and within budget. You can trust me to bring your vision to life effectively."
+        },
+        {
+            "title": "Dedicated to Your Success",
+          "description":
+            "I am committed to client satisfaction and project success. With clear communication, attention to detail, and a focus on your goals, I ensure a smooth and rewarding collaboration from start to finish."
+        }
+      ]
+}

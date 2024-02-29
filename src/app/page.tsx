@@ -4,6 +4,7 @@ import { Spotlight } from "@/components/ui/Spotlight";
 import HeroSection from '@/components/HeroSection';
 import FeaturedProjects from '@/components/FeaturedProjects';
 import WhyChooseMe from '@/components/WhyChooseMe';
+import SkillsTabs from '@/components/SkillsTabs';
 
 const page = () => {
   return (
@@ -14,6 +15,7 @@ const page = () => {
       />
       <HeroSection/>
       <FeaturedProjects/>
+      <SkillsTabs />
       <WhyChooseMe/>
     </main>
   )

@@ -1,34 +1,46 @@
 {
-    "frontend": [
-      "ReactJS",
-      "Next.js",
-      "Tailwind CSS",
-      "Sass",
-      "BootStrap",
-      "Redux Toolkit",
-      "JavaScript",
-      "HTML",
-      "CSS"
-    ],
-    "backend": ["Node.js", "Express.js", "MongoDB", "MySQL", "Rest API", "Firebase"],
-    "fullstack": ["ReactJS",
-    "Next.js",
-    "Tailwind CSS",
-    "Sass",
-    "BootStrap",
-    "Redux Toolkit",
-    "JavaScript",
-    "HTML",
-    "CSS", "Node.js", "Express.js", "MongoDB", "MySQL", "Rest API", "Firebase" ],
-    "tools": [
-      "VS Code",
-      "Git and GitHub",
-      "Postman",
-      "Chrome DevTools",
-      "Firebase",
-      "Linux",
-      "NPM",
-      "Jest ( Testing F/W )"
-    ]
+  "frontend": [
+    {"name": "ReactJS", "icon": "/img/react.png"},
+    {"name": "Next.js", "icon": "/img/next.png"},
+    {"name": "Tailwind CSS", "icon": "/img/tailwind.png"},
+    {"name": "Sass", "icon": "/img/sass.png"},
+    {"name": "BootStrap", "icon": "/img/bootstrap.png"},
+    {"name": "Redux Toolkit", "icon": "/img/redux.png"},
+    {"name": "JavaScript", "icon": "/img/js.png"},
+    {"name": "HTML", "icon": "/img/html.png"},
+    {"name": "CSS", "icon": "/img/css.png"}
+  ],
+  "backend": [
+    {"name": "Node.js", "icon": "/img/node.png"},
+    {"name": "Express.js", "icon": "/img/express.png"},
+    {"name": "MongoDB", "icon": "/img/mongodb.png"},
+    {"name": "MySQL", "icon": "/img/mysql.png"},
+    {"name": "Rest API", "icon": "/img/api.png"}
+  ],
+  "fullstack": [
+    {"name": "ReactJS", "icon": "/img/react.png"},
+    {"name": "Next.js", "icon": "/img/next.png"},
+    {"name": "Tailwind CSS", "icon": "/img/tailwind.png"},
+    {"name": "Sass", "icon": "/img/sass.png"},
+    {"name": "BootStrap", "icon": "/img/bootstrap.png"},
+    {"name": "Redux Toolkit", "icon": "/img/redux.png"},
+    {"name": "JavaScript", "icon": "/img/js.png"},
+    {"name": "HTML", "icon": "/img/html.png"},
+    {"name": "CSS", "icon": "/img/css.png"},
+    {"name": "Node.js", "icon": "/img/node.png"},
+    {"name": "Express.js", "icon": "/img/express.png"},
+    {"name": "MongoDB", "icon": "/img/mongodb.png"},
+    {"name": "MySQL", "icon": "/img/mysql.png"},
+    {"name": "Rest API", "icon": "/img/api.png"}
+  ],
+  "tools": [
+    {"name": "VS Code", "icon": "/img/vsCode.png"},
+    {"name": "Git and GitHub", "icon": "/img/github.png"},
+    {"name": "Postman", "icon": "/img/postman.png"},
+    {"name": "Chrome DevTools", "icon": "/img/chromeDevTools.png"},
+    {"name": "Firebase", "icon": "/img/firebase.png"},
+    {"name": "Linux", "icon": "/img/linux.png"},
+    {"name": "NPM", "icon": "/img/npm.png"},
+    {"name": "Jest", "icon": "/img/jest.png"}
+  ]
 }
-  

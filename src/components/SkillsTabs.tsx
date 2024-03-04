@@ -53,7 +53,11 @@ const SkillsTabs = () => {
   ];
 
   return (
-    <div className="h-[30rem] md:h-[40rem] [perspective:1000px] relative  box-border  flex flex-col  max-w-5xl mx-auto w-[90%] lg:w-full items-center justify-center lg:items-start lg:justify-start my-40">
+    <div id="skills" className="h-screen  [perspective:1000px] relative  box-border  flex flex-col  max-w-5xl mx-auto w-[90%] lg:w-full items-center justify-center lg:items-start lg:justify-start my-20 lg:my-12">
+      <div className='mt-16 mb-12 mx-auto'>
+            <h2 className='text-4xl md:text-5xl text-center text-cyan-500 font-bold my-4'>My Skills</h2>
+            {/* <p className='text-center'>Here is a list of my highlighted work.</p> */}
+        </div>
       <Tabs tabs={tabs} />
     </div>
   );
@@ -66,7 +70,9 @@ interface Skill {
 
 const DummyContent = ({ data }: { data: Skill[] }) => {
   return (
-    <div className="w-full flex justify-between     lg:justify-normal flex-wrap gap-4  my-12">
+    
+      
+    <div  className="w-full flex justify-between     lg:justify-normal flex-wrap gap-4  my-12">
       {data.map((skill: Skill) => (
         <button key={skill.name} className="p-[3px] relative">
           <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
@@ -84,6 +90,7 @@ const DummyContent = ({ data }: { data: Skill[] }) => {
         </button>
       ))}
     </div>
+
   );
 };
 

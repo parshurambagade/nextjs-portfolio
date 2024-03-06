@@ -5,6 +5,7 @@ import HeroSection from '@/components/HeroSection';
 import FeaturedProjects from '@/components/FeaturedProjects';
 import WhyChooseMe from '@/components/WhyChooseMe';
 import SkillsTabs from '@/components/SkillsTabs';
+import { Contact } from '@/components/Contact';
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
       <FeaturedProjects/>
       <SkillsTabs />
       <WhyChooseMe/>
+      <Contact /> 
     </main>
   )
 }

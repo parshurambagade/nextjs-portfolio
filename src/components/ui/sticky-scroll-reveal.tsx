@@ -42,7 +42,7 @@ export const StickyScroll = ({
       animate={{
         backgroundColor: backgroundColors[activeCard % backgroundColors.length],
       }}
-      className="h-[30rem] overflow-auto flex justify-center relative space-x-10 rounded-md p-4 lg:p-10"
+      className="h-[30rem] lg:h-[45rem] overflow-auto flex justify-center relative space-x-10 rounded-md p-4 lg:p-10"
       ref={ref}
       style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
     >
@@ -81,7 +81,7 @@ export const StickyScroll = ({
         animate={{
           background: linearGradients[activeCard % linearGradients.length],
         }}
-        className="hidden lg:block h-60 w-80 rounded-md bg-white sticky top-10 overflow-hidden"
+        className="hidden lg:block h-3/4 w-[30rem] rounded-md bg-white sticky top-10 overflow-hidden"
       ></motion.div>
     </motion.div>
   );

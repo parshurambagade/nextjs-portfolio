@@ -10,7 +10,7 @@ import Link from "next/link"
 
 export function Contact() {
   return (
-    <section className="py-20 dark:bg-dot-white/[0.2] bg-dot-black/[0.2] ">
+    <section className="xl:mt-40 py-20 dark:bg-dot-white/[0.2] bg-dot-black/[0.2] ">
        <div className="space-y-2 mx-4 lg:mx-0">
         <h2 className='text-4xl md:text-5xl text-center text-cyan-500 font-bold my-4'>Contact Me</h2>
           <p className="text-gray-500 text-center dark:text-gray-400">Want to work together? Drop me a message.</p>
@@ -42,8 +42,8 @@ export function Contact() {
         </div>
       </div>
       <div className="flex items-center justify-center w-max">
-        <div className="w-full ">
-          <div className="md:mx-20 flex flex-wrap mx-12 justify-between lg:mx-0 lg:justify-normal lg:grid gap-4 md:gap-8">
+        <div className="w-full max-w-[300px] mx-auto md:max-w-screen">
+          <div className="box-border w-full  flex flex-wrap  justify-evenly lg:mx-0 lg:justify-normal lg:grid gap-4 md:gap-8">
             <Link className="flex flex-1 items-center p-4 rounded-lg gap-4 bg-gray-800 lg:bg-transparent hover:bg-gray-50 dark:hover:bg-gray-800" href="https://www.linkedin.com/in/parshuram-bagade/">
               <LinkedinIcon className="w-6     h-6 rounded-lg  " />
               <span className="font-medium">LinkedIn</span>

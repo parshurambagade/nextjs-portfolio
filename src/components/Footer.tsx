@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-      <footer className="inset-x-0 bottom-0 bg-gray-900 p-4 dark:bg-gray-1000 text-gray-50 dark:text-gray-900">
+      <footer className="relative z-10 inset-x-0 bottom-0 bg-gray-900 p-4 dark:bg-gray-1000 text-gray-50 dark:text-gray-900">
         <div className="max-w-3xl mx-auto grid items-center gap-4 text-center sm:grid-cols-2">
           <div className="flex items-center gap-2 text-sm justify-center sm:justify-start">
             {/* <Avatar className="w-8 h-8" /> */}

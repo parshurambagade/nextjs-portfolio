@@ -7,7 +7,7 @@ import skillsData from "@/data/skillsData.json";
 import { BackgroundGradient } from "./ui/background-gradient";
 
 const SkillsTabs = () => {
-  console.log(skillsData.frontend);
+  // console.log(skillsData.frontend);
   const tabs = [
     {
       title: "Frontend",

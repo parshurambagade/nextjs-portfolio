@@ -27,7 +27,7 @@ const FeaturedProjects = () => {
     const featuredProjects = projectsData.projects.filter((project:Project) => (project.isFeatured));
   // console.log(featuredProjects);
   return (
-    <div className='min-h-screen w-full bg-gray-900/[.5] py-12  px-2 sm:px-12 lg:px-20'>
+    <div id='projects' className='min-h-screen w-full bg-gray-900/[.5] py-12  px-2 sm:px-12 lg:px-20'>
         <div className='mt-16 mb-12'>
             <h2 className='text-4xl md:text-5xl text-center text-cyan-500 font-bold my-4'>Featured Projects</h2>
             <p className='text-center'>Here is a list of my highlighted work.</p>

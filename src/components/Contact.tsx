@@ -10,7 +10,7 @@ import Link from "next/link"
 
 export function Contact() {
   return (
-    <section className="xl:mt-40 py-20 dark:bg-dot-white/[0.2] bg-dot-black/[0.2] ">
+    <section id="contact" className="xl:mt-40 py-20 dark:bg-dot-white/[0.2] bg-dot-black/[0.2] ">
        <div className="space-y-2 mx-4 lg:mx-0">
         <h2 className='text-4xl md:text-5xl text-center text-cyan-500 font-bold my-4'>Contact Me</h2>
           <p className="text-gray-500 text-center dark:text-gray-400">Want to work together? Drop me a message.</p>

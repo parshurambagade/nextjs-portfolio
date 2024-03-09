@@ -19,7 +19,7 @@ interface ThreeDCardType {
 export function ThreeDCard({ image, title, subtitle, liveLink, github, desc, techStack}: ThreeDCardType) {
     return (
         <CardContainer className="inter-var">
-            <CardBody className="bg-black relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-white/[0.2] w-auto sm:w-[30rem] h-auto rounded-xl p-6 md:p-8 border  ">
+            <CardBody className="bg-black  relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-white/[0.2] w-auto sm:w-[30rem] h-auto rounded-xl p-6 md:p-8 border  ">
                 <CardItem
                     translateZ="50"
                     className="text-xl font-bold text-white dark:text-white"
@@ -42,14 +42,14 @@ export function ThreeDCard({ image, title, subtitle, liveLink, github, desc, tec
                         alt="thumbnail"
                     />
                 </CardItem>
-                <CardItem className="mt-8 flex flex-col gap-2">
+                <CardItem className="mt-8 flex flex-col gap-2 text-white dark:text-white">
                     {desc.map((item,i) => (<li key={i}>{item}</li>))}
                 </CardItem>
-                <CardItem className="mt-4 flex flex-col gap-2">
+                <CardItem className="mt-4 flex flex-col gap-2 text-white dark:text-white">
                     <h4 className="text-lg font-bold">Tech Stack:</h4>
                     {techStack.join(", ")}
                 </CardItem>
-                <div className="flex justify-between items-center mt-4">
+                <div className="flex justify-between items-center mt-4 ">
                     <Link href={github}>
                     <CardItem
                         translateZ={20}

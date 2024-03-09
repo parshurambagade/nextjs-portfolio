@@ -10,13 +10,21 @@ const HeroSection = () => {
       <h1 className='md:text-8xl  text-6xl lg:text-8xl font-bold text-wrap my-8 md:text-center text-white'>Parshuram Bagade</h1>
       <p className='md:text-center lg:text-2xl lg:w-2/3 tracking-wide dark:text-slate-200 text-gray-800'>Frontend Developer | React.js | Next.js | Node.js | MERN</p>
 
-      <div className="flex my-8">
-        <Link href={"/"}>
+      <div className="flex my-8 gap-4">
+        <Link href={"/#contact "}>
           <Button
             borderRadius="1.75rem"
             className="bg-white dark:bg-slate-900/[.8] text-black dark:text-white border-neutral-200 dark:border-slate-800 text-lg"
           >
-            Hire me
+            Let&apos;s Chat 
+          </Button>
+        </Link>
+        <Link href="https://bit.ly/parshuram-resume" target="_blank" rel="noopener noreferrer">
+          <Button
+            borderRadius="1.75rem"
+            className="bg-white dark:bg-white/[.8 ] text-black dark:text-black border-neutral-200 dark:border-slate-800 text-lg"
+          > 
+            Download CV
           </Button>
         </Link>
       </div>

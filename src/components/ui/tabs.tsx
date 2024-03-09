@@ -40,9 +40,9 @@ export const Tabs = ({
     <>
       <div
         className={cn(
-          "flex flex-row items-center justify-evenly md:justify-start [perspective:1000px] relative overflow-auto sm:overflow-visible no-visible-scrollbar max-w-full w-full",
+          "flex flex-row items-center justify-evenly md:justify-start md:mx-8 [perspective:1000px] relative overflow-auto sm:overflow-visible no-visible-scrollbar max-w-full w-full ",
           containerClassName
-        )}
+        )}      
       >
         {propTabs.map((tab, idx) => (
           <button
@@ -52,7 +52,7 @@ export const Tabs = ({
             }}
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
-            className={cn("relative px-2 md:px-4 py-2 rounded-full", tabClassName)}
+            className={cn("relative px-2 md:px-4 py-2 rounded-full ", tabClassName)}
             style={{
               transformStyle: "preserve-3d",
             }}
@@ -114,7 +114,7 @@ export const FadeInDiv = ({
           animate={{
             y: isActive(tab) ? [0, 40, 0] : 0,
           }}
-          className={cn("w-full h-[27rem] md:h-[32rem] lg:h-[40rem] absolute top-0 left-0", className)}
+          className={cn("w-full h-[25rem] md:h-[32rem] lg:h-[45rem]  md:px-8  mx-auto            absolute top-0 left-0", className)}
         >
           {tab.content}
         </motion.div>

@@ -33,9 +33,9 @@ const FeaturedProjects = () => {
             <p className='text-center'>Here is a list of my highlighted work.</p>
         </div>
 
-        <div className='w-full flex  flex-wrap flex-col md:flex-row justify-evenly gap-8'>
+        <div className='w-full flex  flex-wrap flex-col md:flex-row justify-evenly gap-8 md:gap-16 lg:gap-8'>
         {featuredProjects.map((project:Project) => (
-          <div key={project.id} className='w-full lg:w-[24rem] h-full'>
+          <div key={project.id} className='w-full md:w-3/4 lg:w-[24rem] h-full'>
           <BackgroundGradient className="rounded-[22px] h-full max-w-full  p-4 py-6 sm:p-6 bg-white dark:bg-zinc-900">
           <Image
             src={`${project.img}`}
@@ -80,7 +80,7 @@ const FeaturedProjects = () => {
 
         <Link href={"/projects"} className="p-[3px] mt-16 mb-8 relative">
   <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-cyan-400 rounded-lg" />
-  <div className="px-4 lg:px-8 py-2 lg:py-4  bg-black rounded-[6px]  relative group transition duration-200 text-base lg:text-xl text-white  hover:text-black hover:bg-transparent">
+  <div className="px-4 lg:px-8 py-2   lg:py-4  bg-black rounded-[6px]  relative group transition duration-200 text-base lg:text-xl text-white  hover:text-black hover:bg-transparent">
   View all projects
   </div>
 </Link>

@@ -7,11 +7,11 @@ import { cn } from "@/lib/utils";
 
 export default function About() {
   return (
-    <section className="box-border  dark:bg-grid-small-white/[0.2] ">
+    <section className="relative box-border  w-full h-max  overflow-hidden  ">
         <div className="absolute top-0 w-full h-full overflow-hidden"> 
         <Boxes />
         </div>
-      <div className="container grid gap-8 px-4 md:px-6 lg:grid-cols-2 lg:gap-12 mx-auto overflow-hidden max-w-screen my-20 lg:my-24 xl:my-32">
+      <div className="container grid gap-8 px-4 md:px-6 lg:px-20         lg:grid-cols-2 lg:gap-12 mx-auto overflow-hidden max-w-screen my-20    lg:my-24 xl:my-32">
       
         <div className="space-y-8 xl:space-y-10 flex items-center  ">
           <div className="w-full h-3/4 rounded-lg overflow-hidden shadow-lg">

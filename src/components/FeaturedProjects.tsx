@@ -33,10 +33,10 @@ const FeaturedProjects = () => {
             <p className='text-center'>Here is a list of my highlighted work.</p>
         </div>
 
-        <div className='w-full flex  flex-wrap flex-col md:flex-row justify-evenly gap-8 md:gap-16 lg:gap-8'>
+        <div className='w-full flex  flex-wrap flex-col md:flex-row justify-evenly gap-8 md:gap-16 lg:gap-8   '>
         {featuredProjects.map((project:Project) => (
           <div key={project.id} className='w-full md:w-3/4 lg:w-[24rem] h-full'>
-          <BackgroundGradient className="rounded-[22px] h-full max-w-full  p-4 py-6 sm:p-6 bg-white dark:bg-zinc-900">
+          <BackgroundGradient className="rounded-[22px] h-full max-w-full  p-4 py-6 sm:p-6 bg-zinc-900 dark:bg-zinc-900">
           <Image
             src={`${project.img}`}
             alt="screenshot"
@@ -46,14 +46,14 @@ const FeaturedProjects = () => {
           />
   
           <div className='my-4'>
-          <h4 className=" text-base sm:text-xl font-bold text-black  dark:text-neutral-200 my-2">
+          <h4 className=" text-base sm:text-xl font-bold text-neutral-200  dark:text-neutral-200 my-2">
             {project.title}
           </h4>
           
     
           <div className='flex flex-col gap-2'>
             {project.desc.map((line: string, i: number) => (
-            <p key={i} className="list-item  ml-6 md:ml-3 text-sm text-neutral-600 dark:text-neutral-400">
+            <p key={i} className="list-item  ml-6 md:ml-3 text-sm text-neutral-400 dark:text-neutral-400">
             {line}
             </p>))}
           </div>

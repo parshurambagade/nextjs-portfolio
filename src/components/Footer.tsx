@@ -2,22 +2,22 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-      <footer className="relative z-10 inset-x-0 bottom-0 bg-gray-900 p-4 dark:bg-gray-1000 text-gray-50 dark:text-gray-900">
+      <footer className="relative z-10 inset-x-0 bottom-0 bg-gray-900 p-4 dark:bg-gray-900 text-gray-900 dark:text-gray-900">
         <div className="max-w-3xl mx-auto grid items-center gap-4 text-center sm:grid-cols-2">
           <div className="flex items-center gap-2 text-sm justify-center sm:justify-start">
             {/* <Avatar className="w-8 h-8" /> */}
             <div className="font-semibold text-white">Build with 🤍 by Parshu</div>
           </div>
           <nav className="flex flex-row gap-4 justify-center sm:justify-end text-white">
-            <Link className="rounded-full p-2 hover:bg-gray-100 dark:hover:bg-gray-800" href="https://github.com/parshurambagade/">
+            <Link className="rounded-full p-2 hover:bg-gray-800 dark:hover:bg-gray-800" href="https://github.com/parshurambagade/">
               <GithubIcon className="h-6 w-6" />
               <span className="sr-only">GitHub</span>
             </Link>
-            <Link className="rounded-full p-2 hover:bg-gray-100 dark:hover:bg-gray-800" href="https://www.linkedin.com/in/parshuram-bagade/">
+            <Link className="rounded-full p-2 hover:bg-gray-800 dark:hover:bg-gray-800" href="https://www.linkedin.com/in/parshuram-bagade/">
               <LinkedinIcon className="h-6 w-6" />
               <span className="sr-only">LinkedIn</span>
             </Link>
-            <Link className="rounded-full p-2 hover:bg-gray-100 dark:hover:bg-gray-800" href="#">
+            <Link className="rounded-full p-2 hover:bg-gray-800 dark:hover:bg-gray-800" href="#">
               <TwitterIcon className="h-6 w-6" />
               <span className="sr-only">Twitter</span>
             </Link>

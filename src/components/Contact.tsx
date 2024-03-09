@@ -75,19 +75,19 @@ export function Contact() {
       <div className="flex items-center justify-center w-max md:w-full lg:w-max md:my-4 lg:my-0">
         <div className="w-full max-w-[300px] mx-auto md:max-w-full lg:max-w-max ">
           <div className="box-border w-full  flex flex-wrap  justify-evenly lg:mx-0 lg:justify-normal md:grid grid-cols-4 lg:grid-cols-1 gap-4 lg:gap-8 md:justify-center        ">
-            <Link className="flex flex-1 items-center p-4 rounded-lg gap-4 bg-gray-800 lg:bg-transparent hover:bg-gray-800 dark:hover:bg-gray-800" href="https://www.linkedin.com/in/parshuram-bagade/">
+            <Link className="flex flex-1 items-center p-4 rounded-lg gap-4 bg-gray-400 lg:bg-transparent hover:bg-gray-800 dark:hover:bg-gray-800" href="https://www.linkedin.com/in/parshuram-bagade/">
               <LinkedinIcon className="w-6     h-6 rounded-lg  " />
               <span className="font-medium">LinkedIn</span>
             </Link>
-            <Link className="flex flex-1  items-center p-4 rounded-lg gap-4 bg-gray-800 lg:bg-transparent hover:bg-gray-800 dark:hover:bg-gray-800" href="https://github.com/parshurambagade/">
+            <Link className="flex flex-1  items-center p-4 rounded-lg gap-4 bg-gray-400 lg:bg-transparent hover:bg-gray-800 dark:hover:bg-gray-800" href="https://github.com/parshurambagade/">
               <GithubIcon className="w-6 h-6 rounded-full overflow-hidden " />
               <span className="font-medium">GitHub</span>
             </Link>
-            <Link className="flex flex-1 items-center p-4 rounded-lg gap-4 bg-gray-800 lg:bg-transparent hover:bg-gray-800 dark:hover:bg-gray-800" href="mailto:parshuram.bagade@outlook.com">
+            <Link className="flex flex-1 items-center p-4 rounded-lg gap-4 bg-gray-400 lg:bg-transparent hover:bg-gray-800 dark:hover:bg-gray-800" href="mailto:parshuram.bagade@outlook.com">
               <ChromeIcon className="w-6 h-6 rounded-full overflow-hidden " />
               <span className="font-medium">Gmail</span>
             </Link>
-            <Link className="flex flex-1 items-center p-4 rounded-lg gap-4 bg-gray-800 lg:bg-transparent hover:bg-gray-800 dark:hover:bg-gray-800" href="#">
+            <Link className="flex flex-1 items-center p-4 rounded-lg gap-4 bg-gray-400 lg:bg-transparent hover:bg-gray-800 dark:hover:bg-gray-800" href="#">
               <TwitterIcon className="w-6 h-6 rounded-full overflow-hidden " />
               <span className="font-medium">Twitter</span>
             </Link>

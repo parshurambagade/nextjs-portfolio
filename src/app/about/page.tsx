@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 
 export default function About() {
   return (
-    <section className="relative box-border  w-full h-max  overflow-hidden  ">
+    <section className="bg-black relative box-border  w-full h-max  overflow-hidden  ">
         <div className="absolute top-0 w-full h-full overflow-hidden"> 
         <Boxes />
         </div>
@@ -27,22 +27,22 @@ export default function About() {
         </div>
         <div className="space-y-8 lg:space-y-10">
           <div className="space-y-2 flex flex-col gap-4 ">
-            <h2 className="relative z-10 text-3xl font-bold tracking-tighter sm:text-5xl md:text-6xl/none text-gray-900 dark:text-gray-100">
+            <h2 className="relative z-10 text-3xl font-bold tracking-tighter sm:text-5xl md:text-6xl/none text-gray-100 dark:text-gray-100">
               Hi, I&apos;m Parshuram Bagade
             </h2>
-            <p className="relative z-10 max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="relative z-10 max-w-[700px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                a passionate web developer with a knack for building creative and user-friendly applications.
             </p>
-            <p className="relative z-10 max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="relative z-10 max-w-[700px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               I&apos;m currently pursuing my Master&apos;s in Computer Applications (MCA) and have a strong foundation in both front-end and back-end development. I&apos;m proficient in popular frameworks like React.js, Redux Toolkit, and libraries like Tailwind CSS and Firebase.
             </p>
-            <p className="relative z-10 max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="relative z-10 max-w-[700px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               In my projects, you&apos;ll see examples of how I&apos;ve used these skills to bring ideas to life. I built a movie recommendation platform called NetflixGPT that uses clever AI to suggest movies you&apos;ll love. I also created VideoX, a platform for discovering exciting new videos on the fly.
             </p>
-            <p className="relative z-10 max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="relative z-10 max-w-[700px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               I&apos;m a big believer in clean code and efficient development practices. I leverage tools like Git and GitHub for version control and collaboration, and I&apos;m always looking for ways to improve the performance and user experience of my applications.
             </p>
-            <p className="relative z-10 max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="relative z-10 max-w-[700px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               Let&apos;s connect! Feel free to browse my portfolio or reach out to me directly. I&apos;m excited to see what we can create together.
             </p>
           </div>

@@ -54,7 +54,7 @@ const SkillsTabs = () => {
   ];
 
   return (
-    <div id="skills" className="min-h-screen md:min-h-[40rem] h-[55rem]  overflow-hidden  [perspective:1000px] relative  box-border  flex flex-col  max-w-5xl  mx-2 lg:mx-auto lg:w-full items-center  md:items-start justify-start lg:justify-center my-0 lg:my-12 px-4">
+    <div id="skills" className="bg-black min-h-screen md:min-h-[40rem] h-[55rem]  overflow-hidden  [perspective:1000px] relative  box-border  flex flex-col  max-w-5xl  mx-2 lg:mx-auto lg:w-full items-center  md:items-start justify-start lg:justify-center my-0 lg:my-12 px-4">
       <div className='mt-16 mb-6  lg:mb-12 mx-auto'>
             <h2 className='text-4xl md:text-5xl text-center text-cyan-500 font-bold my-2 md:my-4'>My Skills</h2>
             {/* <p className='text-center'>Here is a list of my highlighted work.</p> */}

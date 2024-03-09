@@ -8,7 +8,7 @@ const page = () => {
   return (
     <section className='min-h-screen px-2 md:px-6 lg:px-20 bg-blue-700/[.2]'>
  
-        <div className='pt-16 pb-8      '>
+        <div className='pt-28  lg:pt-16 pb-8      '>
             <h2 className='text-4xl md:text-5xl text-center text-cyan-500 font-bold my-4'>Featured Projects</h2>
             <p className='text-center'>Here is a list of my all projects</p>
         </div>

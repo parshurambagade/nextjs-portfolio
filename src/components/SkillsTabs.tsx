@@ -6,6 +6,7 @@ import { Tabs } from "@/components/ui/tabs";
 import skillsData from "@/data/skillsData.json";
 import { BackgroundGradient } from "./ui/background-gradient";
 
+// TODO: convert skills flex to grid 
 const SkillsTabs = () => {
   // console.log(skillsData.frontend);
   const tabs = [
@@ -53,9 +54,9 @@ const SkillsTabs = () => {
   ];
 
   return (
-    <div id="skills" className="min-h-screen sm:h-[55rem]  overflow-hidden  [perspective:1000px] relative  box-border  flex flex-col  max-w-5xl mx-auto w-[90%] lg:w-full items-center justify-center md:items-start sm:justify-start my-20 sm:my-0 lg:my-12">
-      <div className='mt-16 mb-12 mx-auto'>
-            <h2 className='text-4xl md:text-5xl text-center text-cyan-500 font-bold my-4'>My Skills</h2>
+    <div id="skills" className="min-h-screen h-[55rem]  overflow-hidden  [perspective:1000px] relative  box-border  flex flex-col  max-w-5xl  mx-2 lg:mx-auto lg:w-full items-center  md:items-start justify-start md:justify-center my-0 lg:my-12">
+      <div className='mt-16 mb-6  lg:mb-12 mx-auto'>
+            <h2 className='text-4xl md:text-5xl text-center text-cyan-500 font-bold my-2 lg:my-4'>My Skills</h2>
             {/* <p className='text-center'>Here is a list of my highlighted work.</p> */}
         </div>
        

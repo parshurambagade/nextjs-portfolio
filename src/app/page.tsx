@@ -8,7 +8,7 @@ import { Contact } from '@/components/Contact';
 
 const page = () => {
   return (
-    <main className='w-full min-h-screen h-max relative overflow-hidden'>
+    <main className='bg-black dark:bg-black w-full min-h-screen h-max relative overflow-hidden'>
       <HeroSection/>
       <FeaturedProjects/>
       <SkillsTabs />

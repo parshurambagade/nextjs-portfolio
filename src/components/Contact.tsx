@@ -6,11 +6,19 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 // TODO: add toast in the form (email sent/error) 
 export function Contact() {
   const form = useRef<HTMLFormElement | null>(null);
 
-  const sendEmail = (e) => {
+  const notifySuccess = () => toast("Message sent successfully!");
+  const notifyFailure = () => toast("Something went wrong!");
+
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (form.current) {
@@ -20,9 +28,10 @@ export function Contact() {
         })
         .then(
           () => {
-            console.log('SUCCESS!');
+            notifySuccess();
           },
           (error) => {
+            notifyFailure();
             console.log('FAILED...', error.text);
           },
         );
@@ -40,7 +49,7 @@ export function Contact() {
        
         <div className="w-full space-y-4">
 
-          
+        <ToastContainer />
 
           <form ref={form} onSubmit={sendEmail} className="w-full grid grid-cols-1 gap-4">
             <div className="space-y-2">

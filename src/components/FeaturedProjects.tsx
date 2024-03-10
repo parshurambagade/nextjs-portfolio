@@ -28,24 +28,28 @@ const FeaturedProjects = () => {
   // console.log(featuredProjects);
   return (
     <div id='projects' className='min-h-screen w-full bg-gray-900/[.5] dark:bg-gray-900/[.5]  py-4 md:py-12  px-2 md:px-12 lg:px-20'>
-        <div className='mt-16 mb-12'>
-            <h2 className='text-4xl md:text-5xl text-center text-cyan-500 font-bold my-4'>Featured Projects</h2>
-            <p className='text-center'>Here is a list of my highlighted work.</p>
-        </div>
+      <div className='mt-16 mb-12'>
+        <h2 className='text-4xl md:text-5xl text-center text-cyan-500 font-bold my-4'>Featured Projects</h2>
+        <p className='text-center'>Here is a list of my highlighted work.</p>
+      </div>
 
-        <div className='w-full flex  flex-wrap flex-col md:flex-row justify-evenly gap-8 md:gap-16 lg:gap-8   '>
+      <div className='w-full flex  flex-wrap flex-col md:flex-row justify-evenly gap-8 md:gap-16 lg:gap-8   '>
         {featuredProjects.map((project:Project) => (
           <div key={project.id} className='w-full md:w-3/4 lg:w-[24rem] h-full'>
-          <BackgroundGradient className="rounded-[22px] h-full max-w-full  p-4 py-6 sm:p-6 bg-zinc-900 dark:bg-zinc-900">
-          <Image
+            <BackgroundGradient className="rounded-[22px] h-full max-w-full  p-4 py-6 sm:p-6 bg-zinc-900 dark:bg-zinc-900">
+            
+
+            <Image
             src={`${project.img}`}
             alt="screenshot"
             height="400"
             width="400"
             className="object-contain md:w-full"
+            loading='eager'
           />
-  
-          <div className='my-4'>
+
+              <div className='my-4'>
+                <h4 className=" text-base sm:text-xl font-bold text-neutral-200  dark:text-neutral-200 my-2"></h4>
           <h4 className=" text-base sm:text-xl font-bold text-neutral-200  dark:text-neutral-200 my-2">
             {project.title}
           </h4>

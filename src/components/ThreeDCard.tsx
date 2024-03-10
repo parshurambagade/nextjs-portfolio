@@ -40,6 +40,7 @@ export function ThreeDCard({ image, title, subtitle, liveLink, github, desc, tec
                         width="1000"
                         className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                         alt="thumbnail"
+                        loading="eager"
                     />
                 </CardItem>
                 <CardItem className="mt-8 flex flex-col gap-2 text-white dark:text-white">

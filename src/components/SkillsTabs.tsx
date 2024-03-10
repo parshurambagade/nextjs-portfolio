@@ -86,6 +86,7 @@ const DummyContent = ({ data }: { data: Skill[] }) => {
                 alt={skill.name}
                 width={50}
                 height={50}
+                loading="eager"
               />
             </div>
             <div className="hidden lg:inline-block text-xl  ">{skill.name}</div>

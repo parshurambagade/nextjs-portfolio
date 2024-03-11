@@ -6,7 +6,7 @@ import { ThreeDCard } from '@/components/ThreeDCard';
 const page = () => {
     // console.log(projectsData.projects)
   return (
-    <section className='min-h-screen px-2 md:px-6 lg:px-20 bg-blue-700/[.2] dark:bg-blue-700/[.2]'>
+    <section className='min-h-screen px-2 md:px-6 lg:px-20 bg-gray-900/[.5] dark:bg-gray-900/[.5]'>
  
         <div className='pt-28  lg:pt-28     pb-8      '>
             <h2 className='text-4xl md:text-5xl text-center text-cyan-500 font-bold my-4'>All Projects</h2>

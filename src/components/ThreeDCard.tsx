@@ -19,7 +19,7 @@ interface ThreeDCardType {
 export function ThreeDCard({ image, title, subtitle, liveLink, github, desc, techStack}: ThreeDCardType) {
     return (
         <CardContainer className="inter-var">
-            <CardBody className="bg-black  relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-white/[0.2] w-auto sm:w-[30rem] h-auto rounded-xl p-6 md:p-8 border  ">
+            <CardBody className="bg-zinc-900  relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-zinc-900 dark:border-white/[0.2] border-white/[0.2] w-auto sm:w-[30rem] h-auto rounded-xl p-6 md:p-8 border  ">
                 <CardItem
                     translateZ="50"
                     className="text-xl font-bold text-white dark:text-white"
@@ -38,7 +38,7 @@ export function ThreeDCard({ image, title, subtitle, liveLink, github, desc, tec
                         src={image}
                         height="1000"
                         width="1000"
-                        className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                        className="h-60 w-full   rounded-xl group-hover/card:shadow-xl object-fill"
                         alt="thumbnail"
                         loading="eager"
                     />

@@ -14,7 +14,7 @@ const HeroSection = () => {
         <Link href={"/#contact "}>
           <Button
             borderRadius="1.75rem"
-            className="bg-slate-900/[.8] dark:bg-slate-900/[.8] text-white dark:text-white border-slate-800 dark:border-slate-800 text-lg"
+            className="bg-slate-900/[.8] dark:bg-slate-900/[.8] text-white dark:text-white border-slate-800 dark:border-slate-800 text-sm lg:text-lg"
           >
             Let&apos;s Chat 
           </Button>
@@ -22,7 +22,7 @@ const HeroSection = () => {
         <Link href="https://bit.ly/parshuram-resume" target="_blank" rel="noopener noreferrer">
           <Button
             borderRadius="1.75rem"
-            className="bg-white/[.8] dark:bg-white/[.8 ] text-black dark:text-black border-slate-800 dark:border-slate-800 text-lg"
+            className="bg-white/[.8] dark:bg-white/[.8 ] text-black dark:text-black border-slate-800 dark:border-slate-800 text-sm  lg:text-lg"
           > 
             Download CV
           </Button>

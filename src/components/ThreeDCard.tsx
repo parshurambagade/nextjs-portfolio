@@ -43,12 +43,12 @@ export function ThreeDCard({ image, title, subtitle, liveLink, github, desc, tec
                         loading="eager"
                     />
                 </CardItem>
-                <CardItem className="mt-8 flex flex-col gap-2 text-white dark:text-white">
+                <CardItem className="mt-8 flex flex-col gap-2 text-neutral-400 dark:text-neutral-400">
                     {desc.map((item,i) => (<li key={i}>{item}</li>))}
                 </CardItem>
                 <CardItem className="mt-4 flex flex-col gap-2 text-white dark:text-white">
                     <h4 className="text-lg font-bold">Tech Stack:</h4>
-                    {techStack.join(", ")}
+                    <p className="text-neutral-400 dark:text-neutral-400">{techStack.join(", ")}</p>
                 </CardItem>
                 <div className="flex justify-between items-center mt-4 ">
                     <Link href={github}>

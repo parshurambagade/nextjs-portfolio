@@ -61,7 +61,7 @@ const FeaturedProjects = () => {
             {line}
             </p>))}
           </div>
-          <div className='flex gap-2 flex-wrap my-4 text-gray-400 text-xs'>{project.techstack.map((tech:string, i:number) => (<p key={i} className='border border-gray-700 bg-slate-800/[.5] py-1 px-2 rounded-xl'>{tech}</p>))}</div>
+          <div className='flex gap-2  flex-wrap my-4 text-gray-400 text-xs'>{project.techstack.map((tech:string, i:number) => (<p key={i} className='border border-gray-700 bg-slate-800/[.5] py-1 px-2 rounded-xl'>{tech}</p>))}</div>
           </div>
   
           <div className='flex justify-evenly md:justify-between mt-6 '>

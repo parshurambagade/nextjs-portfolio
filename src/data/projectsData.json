@@ -4,7 +4,7 @@
           "id": 0,
           "title": "NetflixGPT",
           "subtitle": "Movie Recommendation Platform",
-          "img": "/img/netflixGpt.gif",
+          "img": "/img/netflixGpt.webp",
           "type": "Frontend",
           "desc": [
             "Integrated GPT's API for movie recommendations based on user queries.",
@@ -22,7 +22,7 @@
           "id": 1,
           "title": "VideoX",
           "subtitle": "Dynamic Video Discovery Platform",
-          "img": "/img/videoX.gif",
+          "img": "/img/videoX.webp",
           "type": "Frontend",
           "desc": [
             "Integrated YouTube's live API for real-time data updates.",
@@ -40,7 +40,7 @@
           "id": 2,
           "title": "Travel Advisor",
           "subtitle": "Location Based Web App",
-          "img": "/img/travelAdvisor.gif",
+          "img": "/img/travelAdvisor.webp",
           "type": "Frontend",
           "desc": [
             "Built a ReactJS app using the Travel-Advisor API for nearby places.",
@@ -58,7 +58,7 @@
           "id": 3,
           "title": "Speedy-Eats",
           "subtitle": "Food Delivery Web App",
-          "img": "/img/speedyEats.gif",
+          "img": "/img/speedyEats.webp",
           "type": "Frontend",
           "desc": [
             "Created a responsive ReactJS app, mimicking Swiggy's functionality.",
@@ -74,10 +74,10 @@
           "isFeatured": false
         },
         {
-          "id": 3,
+          "id": 4,
           "title": "FriendBook",
           "subtitle": "Social Media Website",
-          "img": "/img/friendBook.png",
+          "img": "/img/friendBook.webp",
           "type": "Fullstack",
           "desc": [
             "Used React Query to fetch user data and posts from API",
@@ -91,20 +91,20 @@
           "isFeatured": false
         },
         {
-          "id": 4,
+          "id": 5,
           "title": "Portfolio",
           "subtitle": "Personal Portfolio Website",
-          "img": "/img/portfolio.png" ,
+          "img": "/img/portfolio.webp" ,
           "type": "Frontend",
           "desc": [
-            "A personal portfolio website built using ReactJS",
+            "A personal portfolio website built using Next.js and TypeScript",
             "Showcases frontend skills",
             "Deployed on firebase hosting",
             "Used Tailwind CSS for styling"
           ],
           "liveUrl": "https://mrparshu.live/",
           "codeUrl": "https://github.com/parshurambagade/newPortfolio",
-          "techstack": ["ReactJS", "Tailwind CSS", "Firebase", "JavaScript", "CSS", "HTML"],
+          "techstack": ["Next.js", "Tailwind CSS", "Firebase", "TypeScript", "CSS", "HTML"],
           "isFeatured": false
         }
     ]

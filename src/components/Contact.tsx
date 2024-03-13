@@ -50,8 +50,8 @@ export function Contact() {
 
         <ToastContainer />
 
-          <form ref={form} onSubmit={sendEmail} className="w-full grid grid-cols-1 gap-2 lg:gap-4 ">
-            <div className="space-y-2 text-white ">
+          <form ref={form} onSubmit={sendEmail} className="text-white w-full grid grid-cols-1 gap-2 lg:gap-4 ">
+            <div className="space-y-2 ">
               <Label htmlFor="name">Name</Label>
               <Input id="name" name="user_name" placeholder="Enter your name" />
             </div>

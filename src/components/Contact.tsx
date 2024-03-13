@@ -50,8 +50,8 @@ export function Contact() {
 
         <ToastContainer />
 
-          <form ref={form} onSubmit={sendEmail} className="w-full grid grid-cols-1 gap-4">
-            <div className="space-y-2">
+          <form ref={form} onSubmit={sendEmail} className="w-full grid grid-cols-1 gap-2 lg:gap-4 ">
+            <div className="space-y-2 text-white ">
               <Label htmlFor="name">Name</Label>
               <Input id="name" name="user_name" placeholder="Enter your name" />
             </div>
@@ -72,7 +72,7 @@ export function Contact() {
           </form>
         </div>
       </div>
-      <div className="flex items-center justify-center w-max md:w-full lg:w-max md:my-4 lg:my-0 text-gray-400 dark:text-gray-400 text-sm lg:text-base">
+      <div className="flex items-center justify-center w-max md:w-full lg:w-max md:my-4 lg:my-0 text-gray-400 dark:text-gray-400 text-sm lg:text-base     ">
         <div className="w-full max-w-[300px] mx-auto md:max-w-full lg:max-w-max ">
           <div className="box-border w-full  flex flex-wrap  justify-evenly lg:mx-0 lg:justify-normal md:grid grid-cols-4 lg:grid-cols-1 gap-4 lg:gap-8 md:justify-center        ">
             <Link className="flex flex-1 items-center p-4 rounded-lg gap-4 bg-gray-800 lg:bg-transparent hover:bg-gray-800 dark:hover:bg-gray-800" href="https://www.linkedin.com/in/parshuram-bagade/">

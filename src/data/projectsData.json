@@ -29,14 +29,14 @@
             "Implemented features such as search, video playback, and auto-suggestion.",
             "Optimized performance with Redux caching and debouncing in the search bar."
           ],
-          "liveUrl": "https://euphonious-paletas-bdb716.netlify.app/",
+          "liveUrl": "https://videox1.netlify.app/",
           "codeUrl": "https://github.com/parshurambagade/youtube",
           "techstack": [
             "ReactJS", "Tailwind CSS", "Redux Toolkit", "HTML", "JavaScript", "CSS"
           ],
           "isFeatured": true
         },
-        {
+        {         
           "id": 2,
           "title": "Travel Advisor",
           "subtitle": "Location Based Web App",

@@ -53,15 +53,15 @@ export function Contact() {
           <form ref={form} onSubmit={sendEmail} className="text-white w-full grid grid-cols-1 gap-2 lg:gap-4 ">
             <div className="space-y-2 ">
               <Label htmlFor="name">Name</Label>
-              <Input id="name" name="user_name" placeholder="Enter your name" />
+              <Input id="name" name="user_name" placeholder="Enter your name" required/>
             </div>
             <div className="space-y-2">
               <Label htmlFor="email">Email</Label>
-              <Input id="email" name="user_email" placeholder="Enter your email" />
+              <Input id="email" name="user_email" placeholder="Enter your email" required/>
             </div>
             <div className="space-y-2">
               <Label htmlFor="message">Message</Label>
-              <Textarea  name="message" className="min-h-[200px]" id="message" placeholder="Enter your message" />
+              <Textarea  name="message" className="min-h-[200px]" id="message" placeholder="Enter your message" required/>
             </div>
             
         <button type="submit" className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50" value="send">

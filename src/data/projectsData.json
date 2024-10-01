@@ -1,14 +1,32 @@
 {
     "projects": [
-        {
-          "id": 0,
+      {
+        "id": 0,
+        "title": "SwadSeva",
+        "subtitle": "Online Food Delivery Web App",
+        "img": "/img/swadseva.png",
+        "type": "Frontend",
+        "desc": [
+        "Implemented dynamic search and sorting for restaurants by name, ratings, or distance.",
+"Optimized performance using custom hooks and useCallback to avoid re-renders.",
+"Added shimmer UI and floating cart animation for a smoother, interactive experience."
+        ],
+        "liveUrl": "https://swadseva.vercel.app/",
+        "codeUrl": "https://github.com/parshurambagade/swadseva",
+        "techstack": [
+          "ReactJS", "TypeScript", "Tailwind CSS", "Context API", "HTML", "JavaScript", "CSS"
+        ],
+        "isFeatured": true
+      },
+      {
+          "id": 1,
           "title": "NetflixGPT",
           "subtitle": "Movie Recommendation Platform",
           "img": "/img/netflixGpt.webp",
           "type": "Frontend",
           "desc": [
-            "Integrated GPT's API for movie recommendations based on user queries.",
-            "Implemented user authentication and form validation using Firebase.",
+            "Integrated Gemini AI's API for movie recommendations based on user queries.",
+            "Optimized performance with custom hooks and useCallback to prevent unnecessary re-renders.",
             "Utilized Redux Toolkit for state management and memoization to optimize performance."
           ],
           "liveUrl": "https://flix-gpt.vercel.app/",
@@ -19,15 +37,15 @@
           "isFeatured": true
         },
         {
-          "id": 1,
-          "title": "VideoX",
+          "id": 2,
+          "title": "VTube",
           "subtitle": "Dynamic Video Discovery Platform",
           "img": "/img/videoX.webp",
           "type": "Frontend",
           "desc": [
             "Integrated YouTube's live API for real-time data updates.",
-            "Implemented features such as search, video playback, and auto-suggestion.",
-            "Optimized performance with Redux caching and debouncing in the search bar."
+            "Implemented video search with Google's AutoComplete API, optimized with caching and debouncing to minimize API calls.",
+            "Created a dynamic watch video page that displays video information, including likes, views,comments."
           ],
           "liveUrl": "https://videox1.netlify.app/",
           "codeUrl": "https://github.com/parshurambagade/youtube",
@@ -37,7 +55,7 @@
           "isFeatured": true
         },
         {         
-          "id": 2,
+          "id": 3,
           "title": "Travel Advisor",
           "subtitle": "Location Based Web App",
           "img": "/img/travelAdvisor.webp",
@@ -51,25 +69,6 @@
           "codeUrl": "https://github.com/parshurambagade/travel-advisor",
           "techstack": [
             "React.js", "Sass", "HTML", "JavaScript", "CSS", "Firebase"
-          ],
-          "isFeatured": true
-        },
-        {
-          "id": 3,
-          "title": "Speedy-Eats",
-          "subtitle": "Food Delivery Web App",
-          "img": "/img/speedyEats.webp",
-          "type": "Frontend",
-          "desc": [
-            "Created a responsive ReactJS app, mimicking Swiggy's functionality.",
-            "Implemented Tailwind CSS for a modern UI.",
-            "Used Redux Toolkit for 'Add to Cart' feature.",
-            "Integrated Shimmer UI and search feature."
-          ],
-          "liveUrl": "https://beautiful-moxie-0868a4.netlify.app/",
-          "codeUrl": "https://github.com/parshurambagade/speedy-eats",
-          "techstack": [
-            "ReactJS", "Tailwind CSS", "Redux Toolkit", "HTML", "JavaScript", "CSS"
           ],
           "isFeatured": false
         },

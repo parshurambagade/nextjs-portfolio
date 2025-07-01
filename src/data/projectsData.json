@@ -1,110 +1,146 @@
 {
-    "projects": [
-      {
-        "id": 0,
-        "title": "SwadSeva",
-        "subtitle": "Online Food Delivery Web App",
-        "img": "/img/swadseva.png",
-        "type": "Frontend",
-        "desc": [
+  "projects": [
+    {
+      "id": 0,
+      "title": "NotesGen AI",
+      "subtitle": "Smart YouTube Notes Generator",
+      "img": "/img/notesgenai.png",
+      "type": "Frontend",
+      "desc": [
+        "AI-powered app to generate structured notes from YouTube videos.",
+        "Used Supabase for auth and YouTube transcript extraction.",
+        "Managed state with Zustand and built responsive UI with Tailwind + ShadCN."
+      ],
+      "liveUrl": "https://notes-gen-ai.vercel.app/",
+      "codeUrl": "https://github.com/parshurambagade/notes-gen-ai",
+      "techstack": [
+        "Next.js",
+        "TypeScript",
+        "Gemini AI",
+        "Zustand",
+        "Supabase",
+        "Tailwind CSS",
+        "ShadCN UI"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": 1,
+      "title": "SwadSeva",
+      "subtitle": "Online Food Delivery Web App",
+      "img": "/img/swadseva.png",
+      "type": "Frontend",
+      "desc": [
         "Implemented dynamic search and sorting for restaurants by name, ratings, or distance.",
-"Optimized performance using custom hooks and useCallback to avoid re-renders.",
-"Added shimmer UI and floating cart animation for a smoother, interactive experience."
-        ],
-        "liveUrl": "https://swadseva.vercel.app/",
-        "codeUrl": "https://github.com/parshurambagade/swadseva",
-        "techstack": [
-          "ReactJS", "TypeScript", "Tailwind CSS", "Context API", "HTML", "JavaScript", "CSS"
-        ],
-        "isFeatured": true
-      },
-      {
-          "id": 1,
-          "title": "NetflixGPT",
-          "subtitle": "Movie Recommendation Platform",
-          "img": "/img/netflixGpt.webp",
-          "type": "Frontend",
-          "desc": [
-            "Integrated Gemini AI's API for movie recommendations based on user queries.",
-            "Optimized performance with custom hooks and useCallback to prevent unnecessary re-renders.",
-            "Utilized Redux Toolkit for state management and memoization to optimize performance."
-          ],
-          "liveUrl": "https://flix-gpt.vercel.app/",
-          "codeUrl": "https://github.com/parshurambagade/netflix-gpt",
-          "techstack": [
-            "ReactJS", "Tailwind CSS", "Redux Toolkit", "Firebase", "HTML", "JavaScript", "CSS"
-          ],
-          "isFeatured": true
-        },
-        {
-          "id": 2,
-          "title": "VTube",
-          "subtitle": "Dynamic Video Discovery Platform",
-          "img": "/img/videoX.webp",
-          "type": "Frontend",
-          "desc": [
-            "Integrated YouTube's live API for real-time data updates.",
-            "Implemented video search with Google's AutoComplete API, optimized with caching and debouncing to minimize API calls.",
-            "Created a dynamic watch video page that displays video information, including likes, views,comments."
-          ],
-          "liveUrl": "https://videox1.netlify.app/",
-          "codeUrl": "https://github.com/parshurambagade/youtube",
-          "techstack": [
-            "ReactJS", "Tailwind CSS", "Redux Toolkit", "HTML", "JavaScript", "CSS"
-          ],
-          "isFeatured": true
-        },
-        {         
-          "id": 3,
-          "title": "Travel Advisor",
-          "subtitle": "Location Based Web App",
-          "img": "/img/travelAdvisor.webp",
-          "type": "Frontend",
-          "desc": [
-            "Built a ReactJS app using the Travel-Advisor API for nearby places.",
-            "Utilized Axios for data retrieval and React-Google-Maps API for interactive map display.",
-            "Styled the app with Sass and deployed it on Firebase for online accessibility."
-          ],
-          "liveUrl": "https://travel-advisor-925c7.web.app/",
-          "codeUrl": "https://github.com/parshurambagade/travel-advisor",
-          "techstack": [
-            "React.js", "Sass", "HTML", "JavaScript", "CSS", "Firebase"
-          ],
-          "isFeatured": false
-        },
-        {
-          "id": 4,
-          "title": "FriendBook",
-          "subtitle": "Social Media Website",
-          "img": "/img/friendBook.webp",
-          "type": "Fullstack",
-          "desc": [
-            "Used React Query to fetch user data and posts from API",
-            "Used JSON Web Token (JWT) and Cookies for authentication",
-            "Used React Context API for implementing dark mode functionality"
-          ],
-          "codeUrl": "https://github.com/parshurambagade/social",
-          "techstack": [
-            "ReactJS", "Node.js", "MySQL", "Scss", "JavaScript", "CSS", "HTML"
-          ],
-          "isFeatured": false
-        },
-        {
-          "id": 5,
-          "title": "Portfolio",
-          "subtitle": "Personal Portfolio Website",
-          "img": "/img/portfolio.webp" ,
-          "type": "Frontend",
-          "desc": [
-            "A personal portfolio website built using Next.js and TypeScript",
-            "Showcases frontend skills",
-            "Deployed on firebase hosting",
-            "Used Tailwind CSS for styling"
-          ],
-          "liveUrl": "https://mrparshu.live/",
-          "codeUrl": "https://github.com/parshurambagade/newPortfolio",
-          "techstack": ["Next.js", "Tailwind CSS", "Firebase", "TypeScript", "CSS", "HTML"],
-          "isFeatured": false
-        }
-    ]
+        "Optimized performance using custom hooks and useCallback to avoid re-renders.",
+        "Added shimmer UI and floating cart animation for a smoother, interactive experience."
+      ],
+      "liveUrl": "https://swadseva.vercel.app/",
+      "codeUrl": "https://github.com/parshurambagade/swadseva",
+      "techstack": [
+        "ReactJS",
+        "TypeScript",
+        "Tailwind CSS",
+        "Context API",
+        "HTML",
+        "JavaScript",
+        "CSS"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": 2,
+      "title": "What2Watch AI",
+      "subtitle": "Movie Recommendation Platform",
+      "img": "/img/netflixGpt.webp",
+      "type": "Frontend",
+      "desc": [
+        "Integrated Gemini AI's API for movie recommendations based on user queries.",
+        "Optimized performance with custom hooks and useCallback to prevent unnecessary re-renders.",
+        "Utilized Redux Toolkit for state management and memoization to optimize performance."
+      ],
+      "liveUrl": "https://what2watch-ai.vercel.app/",
+      "codeUrl": "https://github.com/parshurambagade/what2watch-ai",
+      "techstack": [
+        "ReactJS",
+        "Tailwind CSS",
+        "Redux Toolkit",
+        "Firebase",
+        "HTML",
+        "JavaScript",
+        "CSS"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": 3,
+      "title": "VTube",
+      "subtitle": "Dynamic Video Discovery Platform",
+      "img": "/img/videoX.webp",
+      "type": "Frontend",
+      "desc": [
+        "Integrated YouTube's live API for real-time data updates.",
+        "Implemented video search with Google's AutoComplete API, optimized with caching and debouncing to minimize API calls.",
+        "Created a dynamic watch video page that displays video information, including likes, views,comments."
+      ],
+      "liveUrl": "https://videox1.netlify.app/",
+      "codeUrl": "https://github.com/parshurambagade/youtube",
+      "techstack": [
+        "ReactJS",
+        "Tailwind CSS",
+        "Redux Toolkit",
+        "HTML",
+        "JavaScript",
+        "CSS"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": 4,
+      "title": "Travel Advisor",
+      "subtitle": "Location Based Web App",
+      "img": "/img/travelAdvisor.webp",
+      "type": "Frontend",
+      "desc": [
+        "Built a ReactJS app using the Travel-Advisor API for nearby places.",
+        "Utilized Axios for data retrieval and React-Google-Maps API for interactive map display.",
+        "Styled the app with Sass and deployed it on Firebase for online accessibility."
+      ],
+      "liveUrl": "https://travel-advisor-925c7.web.app/",
+      "codeUrl": "https://github.com/parshurambagade/travel-advisor",
+      "techstack": [
+        "React.js",
+        "Sass",
+        "HTML",
+        "JavaScript",
+        "CSS",
+        "Firebase"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": 5,
+      "title": "Portfolio",
+      "subtitle": "Personal Portfolio Website",
+      "img": "/img/portfolio.webp",
+      "type": "Frontend",
+      "desc": [
+        "A personal portfolio website built using Next.js and TypeScript",
+        "Showcases frontend skills",
+        "Deployed on firebase hosting",
+        "Used Tailwind CSS for styling"
+      ],
+      "liveUrl": "https://mrparshu.live/",
+      "codeUrl": "https://github.com/parshurambagade/newPortfolio",
+      "techstack": [
+        "Next.js",
+        "Tailwind CSS",
+        "Firebase",
+        "TypeScript",
+        "CSS",
+        "HTML"
+      ],
+      "isFeatured": false
+    }
+  ]
 }

@@ -83,7 +83,7 @@
         "Implemented video search with Google's AutoComplete API, optimized with caching and debouncing to minimize API calls.",
         "Created a dynamic watch video page that displays video information, including likes, views,comments."
       ],
-      "liveUrl": "https://videox1.netlify.app/",
+      "liveUrl": "https://vtube1.netlify.app/",
       "codeUrl": "https://github.com/parshurambagade/youtube",
       "techstack": [
         "ReactJS",

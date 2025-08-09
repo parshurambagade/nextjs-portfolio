@@ -2,6 +2,30 @@
   "projects": [
     {
       "id": 0,
+      "title": "DevSaathi",
+      "subtitle": "Developer Networking Platform",
+      "img": "/img/devsaathi.png",
+      "type": "Full Stack",
+      "desc": [
+        "Built a full-stack social platform with real-time chat, connections, and premium plans.",
+        "Implemented Socket.IO for real-time messaging with room-based chat functionality.",
+        "Integrated Razorpay payment gateway with webhook handling for order management."
+      ],
+      "liveUrl": "https://devsaathi.tech",
+      "codeUrl": "https://github.com/parshurambagade/dev-saathi",
+      "techstack": [
+        "React.js",
+        "TypeScript",
+        "Node.js",
+        "MongoDB",
+        "Socket.IO",
+        "Redux Toolkit",
+        "AWS EC2"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": 1,
       "title": "NotesGen AI",
       "subtitle": "Smart YouTube Notes Generator",
       "img": "/img/notesgenai.png",
@@ -25,7 +49,7 @@
       "isFeatured": true
     },
     {
-      "id": 1,
+      "id": 2,
       "title": "SwadSeva",
       "subtitle": "Online Food Delivery Web App",
       "img": "/img/swadseva.png",
@@ -49,7 +73,7 @@
       "isFeatured": true
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "What2Watch AI",
       "subtitle": "Movie Recommendation Platform",
       "img": "/img/netflixGpt.webp",
@@ -70,10 +94,10 @@
         "JavaScript",
         "CSS"
       ],
-      "isFeatured": true
+      "isFeatured": false
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "VTube",
       "subtitle": "Dynamic Video Discovery Platform",
       "img": "/img/videoX.webp",
@@ -96,7 +120,7 @@
       "isFeatured": false
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Travel Advisor",
       "subtitle": "Location Based Web App",
       "img": "/img/travelAdvisor.webp",
@@ -119,7 +143,7 @@
       "isFeatured": false
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Portfolio",
       "subtitle": "Personal Portfolio Website",
       "img": "/img/portfolio.webp",
